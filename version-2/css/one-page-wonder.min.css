@@ -167,16 +167,8 @@ footer {
 
 /********** CUSTOM ************/
 
-.navbar-nav li.nav-item:hover, .navbar-nav li.nav-item.current-page {
-    /* border-top: 2px solid #7d47ff; */
-}
-
 .navbar-custom .navbar-nav .nav-item .nav-link:hover {
     color: rgba(0, 0, 0, 0.85);
-}
-
-.navbar-nav li.nav-item:hover .nav-link, .navbar-nav li.nav-item.current-page .nav-link {
-    /* padding-top: calc(1rem - 2px); */
 }
 
 img.img-fluid.map-img {
@@ -238,10 +230,6 @@ p.address {
     margin-right: 10px;
     vertical-align: middle;
 }
-
-.phonePart a, .emailPart a {
-    }
-
 
 .phonePart, .emailPart {
     font-size: 18px;
@@ -406,8 +394,8 @@ section.aboutUsSection {
         max-width: none;
         width: 100%;
     }
-
-
-
 }
 
+p.role {
+    font-size: 1.1rem;
+}
