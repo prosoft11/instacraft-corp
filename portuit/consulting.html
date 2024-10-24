@@ -96,7 +96,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link  wow fadeInLeft" href="#">
-              <button class="button button--nina button--round-l button--text-thick button--inverted"
+              <button id="openModalBtn" class="button button--nina button--round-l button--text-thick button--inverted"
                 data-text="APPOINTMENT">
                 <span>A</span>
                 <span>P</span>
@@ -124,15 +124,12 @@
           <div class="col-lg-12 wow slideInTop">
             <div class="p-5">
               <h2 class="display-4 wow slideInLeft">Investment & Management Consulting</h2>
-              <p class="wow slideInRight">People can book a 90 minute appointment with CEO <a
-                  href="https://www.linkedin.com/in/farris-aurelius"><strong>Farris Aurelius</strong></a> for his
-                expertise on investment, management, strategy, and personal development. His rate is similar to
-                colleagues at his former firm, Morgan Stanley Investment Bank.
+              <p class="wow slideInRight">Are you interested in a consulting or services contract with Portuit? To discuss that, people can <a href="#" id="openModalBtn-2">book an appointment</a> with CEO <a
+                  href="https://www.linkedin.com/in/farris-aurelius"><strong>Farris Aurelius</strong></a>. Farris has expertise on economics, enterprise management, strategy, and more. His rate is similar to colleagues at his former firm, Morgan Stanley Investment Bank. Portuit's other consultants also have extensive expertise and fair hourly rates.
                 <br><br>
-                In the heart of Silicon Valley, CEO Aurelius advised entrepreneurs at San Francisco's 500 Startups
-                accelerator and at UnionVC (see <a href="https://500.co/">500.co</a> and <a
-                  href="https://union.vc/">Union.vc</a>). Among recent projects, CEO Aurelius helped the machine
-                learning startup <a href="https://bytez.io/">Bytez.io</a> as a Strategist.
+                In the heart of Silicon Valley, CEO Aurelius advised entrepreneurs at San Francisco's <a href="https://500.co/">500 Startups</a>
+                accelerator and at <a href="https://union.vc/">UnionVC</a>. Among recent projects, CEO Aurelius helped the machine
+                learning startup <a href="https://bytez.com/">Bytez.com</a> as a Strategist.
               </p>
             </div>
           </div>
@@ -247,6 +244,10 @@
   <script>
     // Function to open the modal
     $("#openModalBtn").click(function () {
+      $("#appointmentModal").dialog("open");
+    });
+
+    $("#openModalBtn-2").click(function () {
       $("#appointmentModal").dialog("open");
     });
 
