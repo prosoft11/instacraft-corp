@@ -144,6 +144,43 @@
     </div>
   </section>
 
+  <div id="appointmentModal" title="Book Appointment">
+    <form id="appointmentForm" class="p-3">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" class="form-control" required>
+        <div class="error-message" id="nameError"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="number" id="phone" name="phone" class="form-control" required>
+        <div class="error-message" id="phoneError"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" class="form-control" required>
+        <div class="error-message" id="emailError"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="date">Desired Date:</label>
+        <input type="date" id="date" name="date" class="form-control" required>
+        <div class="error-message" id="dateError"></div>
+      </div>
+
+      <div class="form-group mb-0">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" class="form-control"></textarea>
+        <div class="error-message" id="messageError"></div>
+      </div>
+    </form>
+    <div id="confirmationMessage" style="display:none;">
+      <p class="text-center alert badge-success">Message Sent</p>
+    </div>
+  </div>
+
   <!-- Footer 
   <footer class="py-2">
     <div class="container">
