@@ -10,19 +10,35 @@
 
   <title>Instacraft Corporation</title>
 
-
-
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Include jQuery UI for modal -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i"
     rel="stylesheet">
 
+  <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+  <link href="vendor/fontawesome-free-5.12.0-web/css/fontawesome.css" rel="stylesheet">
+  <link href="vendor/fontawesome-free-5.12.0-web/css/brands.css" rel="stylesheet">
+  <link href="vendor/fontawesome-free-5.12.0-web/css/solid.css" rel="stylesheet">
+
   <!-- Custom styles for this template -->
   <link href="css/one-page-wonder.min.css" rel="stylesheet">
 
+  <style>
+    /* Style for the modal */
+    #appointmentModal {
+      display: none;
+    }
+
+    .error-message {
+      color: red;
+    }
+  </style>
 </head>
 
 <body>
@@ -254,15 +270,15 @@
 
   <script>
     // Function to open the modal
-    // $("#openModalBtn").click(function () {
-    //   $("#appointmentModal").dialog("open");
-    //   $(".navbar-collapse").collapse("hide");
-    // });
+    $("#openModalBtn").click(function () {
+      $("#appointmentModal").dialog("open");
+      $(".navbar-collapse").collapse("hide");
+    });
 
-    // $("#openModalBtn-2").click(function () {
-    //   $("#appointmentModal").dialog("open");
-    //   $(".navbar-collapse").collapse("hide");
-    // });
+    $("#openModalBtn-2").click(function () {
+      $("#appointmentModal").dialog("open");
+      $(".navbar-collapse").collapse("hide");
+    });
 
     // Initialize the modal
     $("#appointmentModal").dialog({
