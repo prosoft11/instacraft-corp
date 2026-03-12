@@ -276,7 +276,7 @@ span.coloredTopHeading {
 }
 section.aboutUsSection {
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: -2rem;
     text-align: center;
 }
 .aboutUsSection .p-5 {
@@ -291,7 +291,7 @@ section.aboutUsSection {
 }
 
 .ownersInfo .p-3 h2 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .consultingSecion span.coloredTopHeading {
