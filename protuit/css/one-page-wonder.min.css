@@ -220,20 +220,28 @@ h2.mapHeading {
 }
 
 p.address {
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 400;
 }
 
 .phonePart i, .emailPart i  {
-    font-size: 30px;
+    font-size: 20px;
     color: #7d47ff;
     margin-right: 10px;
     vertical-align: middle;
 }
 
 .phonePart, .emailPart {
-    font-size: 18px;
+    font-size: 16px;
     margin: 10px 0px;
+}
+
+.emailPart a.email {
+    font-size: 16px;
+}
+
+p.underInfo {
+    font-size: 15px;
 }
 
 .gmap_canvas {
@@ -372,15 +380,15 @@ section.aboutUsSection {
     }
 
     .mapSection p.address {
-        font-size : 20px;
+        font-size: 16px;
     }
 
     .mapSection .phonePart, .emailPart {
-        font-size: 15px;
-    } 
+        font-size: 16px;
+    }
 
     .mapSection p.underInfo {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .navbar-custom .navbar-nav .nav-item .nav-link {
