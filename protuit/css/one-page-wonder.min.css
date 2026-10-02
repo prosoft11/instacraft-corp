@@ -310,6 +310,19 @@ section.aboutUsSection {
     text-align: center;
 }
 
+body.consulting-page header.masthead.consultingSecion {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+body.consulting-page header.masthead.consultingSecion .masthead-content {
+    width: 100%;
+}
+
 .consultingSecion h2 {
     margin-bottom: 3rem;
 }
